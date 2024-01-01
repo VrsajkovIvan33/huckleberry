@@ -17,10 +17,12 @@ header {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0px 24px;
 }
 
 .intro-chunk {
-  padding: 96px 24px 64px 24px;
+  padding-top: 96px;
+  padding-bottom: 64px;
 }
 
 .title {
@@ -45,7 +47,8 @@ main {
 
 .card {
   background-color: hsl(0deg, 0%, 100%);
-  padding: 8px 24px 24px 24px;
+  padding: 24px;
+  margin: 0px -24px;
   border-bottom: 8px solid hsl(0deg, 0%, 60%);
 }
 
@@ -54,7 +57,7 @@ main {
   background-color: hsl(45deg, 100%, 50%);
   border-bottom: 8px solid hsl(45deg, 100%, 40%);
   width: fit-content;
-  margin-top: 0px;
+  margin-top: -16px;
   margin-left: -32px;
   font-size: 1.5rem;
 }
