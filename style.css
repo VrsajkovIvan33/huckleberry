@@ -50,8 +50,7 @@ p:last-child {
 
 main {
   background-color: hsl(0deg, 0%, 40%);
-  padding-top: 72px;
-  height: 60%;
+  padding: 64px 0px;
 }
 
 .card {
