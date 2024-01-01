@@ -23,16 +23,18 @@ header {
 .intro-chunk {
   padding-top: 96px;
   padding-bottom: 64px;
+  max-width: 415px;
 }
 
 .title {
   font-size: 2rem;
+  line-height: 1.2;
   margin-bottom: 48px;
 }
 
-.intro-chunk p {
+.p {
   font-size: 1.25rem;
-  max-width: 415px;
+  line-height: 1.5;
 }
 
 .intro-chunk p strong {
@@ -60,10 +62,7 @@ main {
   margin-top: -16px;
   margin-left: -32px;
   font-size: 1.5rem;
-}
-
-.card p {
-  font-size: 1.25rem;
+  line-height: 1.2;
 }
 
 /* Add styles here! */
